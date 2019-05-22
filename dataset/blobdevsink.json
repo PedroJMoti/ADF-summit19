@@ -13,5 +13,6 @@
 			"fileName": "",
 			"folderPath": "sink"
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }

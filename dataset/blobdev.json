@@ -13,5 +13,6 @@
 			"fileName": "",
 			"folderPath": "datos"
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }
