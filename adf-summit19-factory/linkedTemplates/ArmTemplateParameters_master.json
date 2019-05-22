@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-summit19-factory"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"blobdev_connectionString": {
+			"value": ""
+		},
+		"blobdev_properties_typeProperties_fileName": {
+			"value": ""
+		},
+		"blobdev_properties_typeProperties_folderPath": {
+			"value": "datos"
+		},
+		"blobdevsink_properties_typeProperties_fileName": {
+			"value": ""
+		},
+		"blobdevsink_properties_typeProperties_folderPath": {
+			"value": "sink"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
