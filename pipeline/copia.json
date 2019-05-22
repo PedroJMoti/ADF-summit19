@@ -44,6 +44,12 @@
 						"dependencyConditions": [
 							"Succeeded"
 						]
+					},
+					{
+						"activity": "Wait1",
+						"dependencyConditions": [
+							"Succeeded"
+						]
 					}
 				],
 				"policy": {
@@ -83,6 +89,13 @@
 						"referenceName": "blobdevsink",
 						"type": "DatasetReference"
 					}
+				}
+			},
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"typeProperties": {
+					"waitTimeInSeconds": 1
 				}
 			}
 		]
