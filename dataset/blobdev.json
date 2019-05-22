@@ -1,0 +1,17 @@
+{
+	"name": "blobdev",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "blobdev",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureBlob",
+		"typeProperties": {
+			"format": {
+				"type": "JsonFormat"
+			},
+			"fileName": "",
+			"folderPath": "datos"
+		}
+	}
+}
